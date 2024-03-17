@@ -1,0 +1,14 @@
+{
+  "name": "express_module",
+  "version": "1.0.0",
+  "description": "express_runner",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "author": "mayank_pandey",
+  "license": "ISC",
+  "dependencies": {
+    "url": "^0.11.3"
+  }
+}

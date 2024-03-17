@@ -8,7 +8,8 @@
     "module": "node ./module/module",
     "server": "node ./http_server/index",
     "server_log": "node ./http_server/server_log",
-    "url": "node ./url_handling/index"
+    "url": "node ./url_handling/index",
+    "express": "node ./express_module/index"
   },
   "author": "",
   "license": "ISC",
