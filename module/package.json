@@ -1,0 +1,12 @@
+
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "module_runner",
+  "main": "hello.js",
+  "scripts": {
+    "start": "node module"
+  },
+  "author": "Mayank_pandey",
+  "license": "ISC"
+}

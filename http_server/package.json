@@ -1,0 +1,12 @@
+{
+  "name": "http_server",
+  "version": "1.0.0",
+  "description": "server_runner",
+  "main": "index.js",
+  "scripts": {
+    "index": "node index",
+    "server_log": "node server_log"
+  },
+  "author": "Mayank_pandey",
+  "license": "ISC"
+}
