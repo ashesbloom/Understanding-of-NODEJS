@@ -9,7 +9,8 @@
     "server": "node ./http_server/index",
     "server_log": "node ./http_server/server_log",
     "url": "node ./url_handling/index",
-    "express": "node ./express_module/index"
+    "express": "node ./express/index",
+    "methods": "node ./express/methods"
   },
   "author": "",
   "license": "ISC",

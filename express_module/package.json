@@ -4,11 +4,13 @@
   "description": "express_runner",
   "main": "index.js",
   "scripts": {
+    "methods": "node methods",
     "start": "node index"
   },
   "author": "mayank_pandey",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.18.3",
     "url": "^0.11.3"
   }
 }

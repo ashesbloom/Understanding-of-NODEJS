@@ -27,5 +27,7 @@ const myserver = http.createServer((req,res) => {
             break;
     }
 })
+//handling all that request and switch case it get very messy so we use the express framework to handle the request
+//which is explained in the express folder
 
 myserver.listen(8000, ()=>{console.log('server is listening on port 8000')});

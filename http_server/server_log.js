@@ -18,20 +18,23 @@ const myserver = http.createServer((req,res) => {
                 //currntly we have no pages on our server so you can write any url and it will give you the response accordingly
                 //for example if you write localhost:8000/about it will give you the response of about page
                 case "/":
-                    res.end(`<h2>You are on the <h1>home page</h1> of the server</h2>`);
+                    res.end('<html><body><h2>You are on the <h1>home page</h1> of the server</h2></body></html>');
                     break;
                 case "/about":
-                    res.end('<h2>You are on the <h1>about page</h1> of the server</h2>');
+                    res.end('<html><body><h2>You are on the <h1>about page</h1> of the server</h2></body></html>');
                     break;
                 case "/contact":
-                    res.end('<h2>You are on the <h1>contact page</h1> of the server</h2>');
+                    res.end('<html><body><h2>You are on the <h1>contact page</h1> of the server</h2></body></html>');
                     break;
                 default:
-                    res.end('<center><h1>404 page not found</h1></center>');
+                    res.end('<html><body><center><h1>404 page not found</h1></center></body></html>');
                     break;
             }
         }
     })
 });
+
+//handling all that request and switch case it get very messy so we use the express framework to handle the request
+//which is explained in the express folder
 
 myserver.listen(8000,()=>{console.log('server is listening on port 8000')})
