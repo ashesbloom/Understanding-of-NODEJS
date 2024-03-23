@@ -1,0 +1,14 @@
+{
+  "name": "middleware",
+  "version": "1.0.0",
+  "description": "server_runner",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "author": "mayank_pandey",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.1"
+  }
+}
