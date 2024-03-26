@@ -4,19 +4,20 @@
   "description": "test_runner",
   "main": "file.js",
   "scripts": {
-    "file": "node ./file_handling/file",
-    "module": "node ./module/module",
-    "server": "node ./http_server/index",
-    "server_log": "node ./http_server/server_log",
-    "url": "node ./url_handling/index",
-    "express": "node ./express/index",
-    "methods": "node ./express/methods",
-    "middleware": "node ./Middleware/index",
-    "handling": "node ./file_handling/index"
+    "file": "nodemon ./file_handling/file",
+    "module": "nodemon ./module/module",
+    "server": "nodemon ./http_server/index",
+    "server_log": "nodemon ./http_server/server_log",
+    "url": "nodemon ./url_handling/index",
+    "express": "nodemon ./express/index",
+    "methods": "nodemon ./express/methods",
+    "middleware": "nodemon ./Middleware/index",
+    "handling": "nodemon ./file_handling/index"
   },
   "author": "mayank_pandey",
   "license": "ISC",
   "dependencies": {
+    "nodemon": "^3.1.0",
     "url": "^0.11.3"
   }
 }
