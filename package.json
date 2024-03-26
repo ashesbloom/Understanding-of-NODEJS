@@ -10,9 +10,11 @@
     "server_log": "node ./http_server/server_log",
     "url": "node ./url_handling/index",
     "express": "node ./express/index",
-    "methods": "node ./express/methods"
+    "methods": "node ./express/methods",
+    "middleware": "node ./Middleware/index",
+    "handling": "node ./file_handling/index"
   },
-  "author": "",
+  "author": "mayank_pandey",
   "license": "ISC",
   "dependencies": {
     "url": "^0.11.3"
