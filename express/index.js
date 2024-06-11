@@ -2,7 +2,6 @@
 //express is a web application framework for nodejs
 //for using express we have to install the famework by using the command npm i express and check in the package.json file for the dependency
 // visit https://expressjs.com for documentation
-const http = require("http");
 const express = require('express');
 
 //now we have to create an object of the express framework

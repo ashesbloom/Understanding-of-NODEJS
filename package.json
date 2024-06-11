@@ -12,11 +12,14 @@
     "express": "nodemon ./express/index",
     "methods": "nodemon ./express/methods",
     "middleware": "nodemon ./Middleware/index",
-    "handling": "nodemon ./file_handling/index"
+    "handling": "nodemon ./file_handling/index",
+    "render": "nodemon ./server_side_rendering/server.js"
   },
   "author": "mayank_pandey",
   "license": "ISC",
   "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
     "nodemon": "^3.1.0",
     "url": "^0.11.3"
   }
