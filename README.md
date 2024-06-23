@@ -45,7 +45,7 @@ npm init -y
 ## Running Scripts
 To run the scripts, use the following npm commands:
 
-## Example
+### Example
 To run the file handling script, use:
 ```sh
 npm run file
