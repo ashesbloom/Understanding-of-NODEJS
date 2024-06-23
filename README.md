@@ -45,6 +45,12 @@ npm init -y
 ## Running Scripts
 To run the scripts, use the following npm commands:
 
+## Example
+To run the file handling script, use:
+```sh
+npm run file
+```
+
 - **File Handling**: `npm run file`
 - **Module Management**: `npm run module`
 - **HTTP Server**: `npm run server`
@@ -53,14 +59,8 @@ To run the scripts, use the following npm commands:
 - **Express Server**: `npm run express`
 - **Express Methods**: `npm run methods`
 - **Middleware**: `npm run middleware`
-- **File Handling Index**: `npm run handling`
 - **Server-Side Rendering**: `npm run render`
 
-## Example
-To run the file handling script, use:
-```sh
-npm run file
-```
 ## Package Scripts Configuration
 ```json
 "scripts": {
@@ -72,7 +72,6 @@ npm run file
   "express": "nodemon ./express/index",
   "methods": "nodemon ./express/methods",
   "middleware": "nodemon ./Middleware/index",
-  "handling": "nodemon ./file_handling/index",
   "render": "nodemon ./server_side_rendering/server.js"
 }
 ```
