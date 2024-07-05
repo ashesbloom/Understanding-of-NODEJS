@@ -60,6 +60,7 @@ npm run file
 - **Express Methods**: `npm run methods`
 - **Middleware**: `npm run middleware`
 - **Server-Side Rendering**: `npm run render`
+- **Uploading file**: `npm run upload`
 
 ## Package Scripts Configuration
 ```json
@@ -73,5 +74,6 @@ npm run file
   "methods": "nodemon ./express/methods",
   "middleware": "nodemon ./Middleware/index",
   "render": "nodemon ./server_side_rendering/server.js"
+  "upload": "nodemon ./upload_file/index.js"
 }
 ```
