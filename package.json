@@ -13,7 +13,8 @@
     "methods": "nodemon ./express/methods",
     "middleware": "nodemon ./Middleware/index",
     "handling": "nodemon ./file_handling/index",
-    "render": "nodemon ./server_side_rendering/server.js"
+    "render": "nodemon ./server_side_rendering/server.js",
+    "upload": "nodemon ./upload_file/index.js"
   },
   "author": "mayank_pandey",
   "license": "ISC",
