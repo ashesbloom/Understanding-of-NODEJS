@@ -1,5 +1,7 @@
 # Understanding-of-NODEJS
 
+![Views](https://komarev.com/ghpvc/?username=ashesbloom&repo=Locallens&color=blue&style=plastic&label=Views+so+far)
+
 ## Introduction
 
 This repository is a comprehensive and well-documented guide for Node.js, providing detailed explanations, and best practices for developers looking to enhance their Node.js skills.
